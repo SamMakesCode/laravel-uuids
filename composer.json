@@ -1,0 +1,21 @@
+{
+    "name": "sammakescode/laravel-uuids",
+    "description": "A simple method for assigning UUIDs to Laravel models",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SamMakesCode\\LaravelUUIDs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sam Littler",
+            "email": "samlittler57@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^9.11"
+    }
+}
